@@ -6,7 +6,9 @@ h,w,c = img.shape #to find the image size and channels
 print("The details o fthe image is as:\n") 
 print(f"\nHeight: {h}\n Width: {w}\n Channel: {c}\n")
 cv.waitKey(0) #to hold the output on the screen until any key is pressed.
+cv.destroyWindows() # to destroy the recently opened window panel.
 cv.destroyAllWindows() # to destroy all the open windows on the panel.
+
 
 
 
